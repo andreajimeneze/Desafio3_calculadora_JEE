@@ -14,6 +14,7 @@ public class CalculatorServlet extends HttpServlet {
 
     @Override
     public void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+        DecimalFormat df = new DecimalFormat("##.##");
         int number1 = Integer.parseInt(req.getParameter("number1"));
         int number2 = Integer.parseInt(req.getParameter("number2"));
         String mathOperation = req.getParameter("mathOperation");
@@ -37,7 +38,7 @@ public class CalculatorServlet extends HttpServlet {
                         if(number2 == 0) {
                             throw new ArithmeticException("No se puede dividir por cero");
                         } else {
-                            resultText = "La división de " + number1 + " y " + number2 + " es " + ((double) number1 / number2);
+                            resultText = "La división de " + number1 + " y " + number2 + " es " + df.format(((double) number1 / number2));
                         }
                         break;
                 case "orderBy":
@@ -51,9 +52,6 @@ public class CalculatorServlet extends HttpServlet {
                     }
                     break;
                 case "evenOdd":
-                    //int[] numbers  = {number1, number2};
-                    String result = "";
-                    DecimalFormat df = new DecimalFormat("##.##");
                     if(number1 %2 == 0 & number2 %2 == 0) {
                         resultText = "Los números " + number1 + " y " + number2 + " son pares";
                     } else if(number1 %2 != 0 & number2 %2 != 0) {

@@ -10,13 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="932e7398-dc62-49fc-ad40-a23faa236f09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/praxis/calculadora_jee/servlet/CalculatorServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/praxis/calculadora_jee/servlet/CalculadoraSerlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/praxis/calculadora_jee/servlet/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/praxis/calculadora_jee/servlet/CalculatorServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +148,8 @@
       <workItem from="1720038402427" duration="4421000" />
       <workItem from="1720662767216" duration="3918000" />
       <workItem from="1720666952197" duration="13655000" />
-      <workItem from="1720704410085" duration="4202000" />
+      <workItem from="1720704410085" duration="4761000" />
+      <workItem from="1720753083714" duration="338000" />
     </task>
     <servers />
   </component>
